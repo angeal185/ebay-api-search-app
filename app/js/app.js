@@ -94,7 +94,7 @@ buildURLArray(filterarray);
 			kw = $('#jsonSearch').val(),
 			entries = 50;
 
-			var url = "http://svcs.ebay.com/services/search/FindingService/v3?OPERATION-NAME=" + operation + "&SERVICE-VERSION=1.0.0&SECURITY-APPNAME=" + apikey + "&GLOBAL-ID=" + locale + "&RESPONSE-DATA-FORMAT=JSON&callback=_cb_" + operation + "&REST-PAYLOAD&keywords=" + kw + urlfilter + "&paginationInput.entriesPerPage=" + entries + "&paginationInput.pageNumber=2";
+			var url = "//svcs.ebay.com/services/search/FindingService/v3?OPERATION-NAME=" + operation + "&SERVICE-VERSION=1.0.0&SECURITY-APPNAME=" + apikey + "&GLOBAL-ID=" + locale + "&RESPONSE-DATA-FORMAT=JSON&callback=_cb_" + operation + "&REST-PAYLOAD&keywords=" + kw + urlfilter + "&paginationInput.entriesPerPage=" + entries + "&paginationInput.pageNumber=2";
 
 			$.getScript(url);
 
