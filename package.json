@@ -1,0 +1,34 @@
+{
+  "name": "ebay.api.search.app",
+  "version": "1.0.0",
+  "description": "ebay-api-search-app",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angeal185/ebay-api-search-app.git"
+  },
+  "keywords": [
+    "ebay"
+  ],
+  "author": "ben eaves",
+  "license": "MIT",
+  "homepage": "https://github.com/angeal185/ebay-api-search-app",
+  "devDependencies": {
+    "chalk": "^1.1.3",
+    "gulp": "^3.9.1",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-notify": "^3.0.0",
+    "gulp-uglify": "^2.0.1",
+    "gulp-util": "^3.0.8",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1",
+    "node-static": "^0.7.9",
+    "require-dir": "^0.3.2"
+  }
+}

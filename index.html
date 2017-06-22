@@ -1,0 +1,67 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>eBay Search Results</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
+<link rel="stylesheet" href="app/css/style.css">
+
+</head> 
+<body>
+<div class="navbar-fixed">
+  <nav>
+    <div class="nav-wrapper">
+      <div class="container"><a class="brand-logo center" href="#!">eBay API Search</a></div>
+    </div>
+  </nav>
+</div>
+
+<div class="row center">
+<img class="ebayLogo" src="https://upload.wikimedia.org/wikipedia/commons/4/48/EBay_logo.png" />
+<div class="col s12">
+<input class="form-control input-lg" id="jsonSearch" type="search" placeholder="Search...">
+            <input type="button" id="driver" value="Search" class="btn col s12">
+</div></div>
+<div class="row">
+<div id="results"></div>
+<div class="fixed-action-btn toolbar">
+    <a class="btn-floating btn-large red">
+      <i class="large material-icons">mode_edit</i>
+    </a>
+    <ul>
+      <li class="waves-effect waves-light"><a href="#modal1"><i class="material-icons">settings</i></a></li>
+      <li class="waves-effect waves-light"><a href="#modal2"><i class="material-icons">info_outline</i></a></li>
+      <li class="waves-effect waves-light"><a id="to-top" href="#"><i class="material-icons">expand_less</i></a></li>
+    </ul>
+  </div>
+</div>
+
+<div id="modal1" class="modal bottom-sheet">
+	<div class="modal-content">
+		<h4>Settings</h4>
+		<pre id="lnk"></pre>
+	</div>
+	<div class="modal-footer">
+		<a href="#!" class="modal-action modal-close waves-effect waves-light btn-flat">Close</a>
+	</div>
+</div>
+<div id="modal2" class="modal bottom-sheet">
+	<div class="modal-content">
+		<h4>About</h4>
+		<p>A bunch of text</p>
+	</div>
+	<div class="modal-footer">
+		<a href="#!" class="modal-action modal-close waves-effect waves-light btn-flat">Close</a>
+	</div>
+</div>
+<script src="app/js/jquery.min.js"></script>
+<script src="app/js/materialize.min.js"></script>
+
+
+<script src="app/js/app.js"></script>
+<script>
+
+
+</script>
+</body>
+</html>
